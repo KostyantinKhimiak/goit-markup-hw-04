@@ -425,51 +425,41 @@ color: #434455;
   align-items: baseline;
 }
 
-.footer-logo-wrapper{
-    margin-right: 120px;
+.footer {
+  background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
-.footer-logo-colour{
-    font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #f4f4fd;
+.footer-wrapper {
+  display: flex;
+  align-items: baseline;
 }
 
-.footer-logo{
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-font-size: 18px;
-line-height: 117%;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4d5ae5;
-text-decoration: none;
-display: inline-block;
-margin-bottom: 16px;
-
+.logo-footer .logo-color {
+  color: #f4f4fd;
 }
 
-
-.footer-text{
-    font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-color: #f4f4fd;
-margin-top: 16px;
- width:264px
+.logo-footer {
+  margin-bottom: 16px;
+  display: inline-block;
 }
 
-.footer-social-list{
+.footer-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+  max-width: 264px;
+}
+
+.footer-social-list {
   display: flex;
   gap: 16px;
-  list-style-type: none;
 }
 
-.footer-social-title {
+.footer-social-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
