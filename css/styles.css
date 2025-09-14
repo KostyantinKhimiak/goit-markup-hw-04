@@ -457,6 +457,7 @@ color: #434455;
 .footer-social-list {
   display: flex;
   gap: 16px;
+  list-style-type: none;
 }
 
 .footer-social-text {
